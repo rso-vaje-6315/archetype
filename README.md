@@ -5,7 +5,7 @@
 
 Run command:
 ```bash
-mvn archetype:generate "-DarchetypeGroupId=com.mjamsek.archetype" \
-  "-DarchetypeArtifactId=kumuluzee-ms-archetype" "-DarchetypeVersion=x.x.x" \
+mvn archetype:generate "-DarchetypeGroupId=si.fri.rso.archetype" \
+  "-DarchetypeArtifactId=rso-archetype" "-DarchetypeVersion=x.x.x" \
   "-DgroupId=com.example" "-DartifactId=sample-project" "-Dversion=1.0.0"
 ```
