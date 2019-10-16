@@ -6,7 +6,7 @@
 Run command:
 ```bash
 mvn archetype:generate "-DarchetypeGroupId=si.rso.archetype" \
-  "-DarchetypeArtifactId=rso-archetype" "-DarchetypeVersion=1.0.0-SNAPSHOT" \
+  "-DarchetypeArtifactId=rso-archetype" "-DarchetypeVersion=1.0.0" \
   "-DgroupId=com.example" "-DartifactId=sample-project" "-Dversion=1.0.0"
 ```
 
