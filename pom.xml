@@ -30,23 +30,14 @@
 
     <profiles>
         <profile>
-            <id>deploy-snapshot</id>
+            <id>deploy</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <distributionManagement>
                 <repository>
-                    <id>mjamsek-snapshots</id>
-                    <url>https://nexus.mjamsek.com/repository/maven-snapshots</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-        <profile>
-            <id>deploy-release</id>
-            <distributionManagement>
-                <repository>
-                    <id>mjamsek-releases</id>
-                    <url>https://nexus.mjamsek.com/repository/maven-releases</url>
+                    <id>rso-store</id>
+                    <url>https://nexus.mjamsek.com/repository/rso-store</url>
                 </repository>
             </distributionManagement>
         </profile>

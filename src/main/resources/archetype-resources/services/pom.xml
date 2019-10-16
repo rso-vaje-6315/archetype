@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>${groupId}</groupId>
-            <artifactId>lib-v1</artifactId>
+            <artifactId>${artifactId}-lib-v1</artifactId>
         </dependency>
 
         <dependency>
