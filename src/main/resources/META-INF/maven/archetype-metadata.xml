@@ -170,6 +170,12 @@
                 <include>__gitignore__</include>
             </includes>
         </fileSet>
+        <fileSet encoding="UTF-8">
+            <directory>.ci</directory>
+            <includes>
+                <include>settings.xml</include>
+            </includes>
+        </fileSet>
     </fileSets>
 
 </archetype-descriptor>
