@@ -9,4 +9,6 @@ cache:
   - "$HOME/.m2"
 
 install: mvn clean install -DskipTests=true --settings .ci/settings.xml -P rso
-# script: mvn test
+script:
+  - echo "DONE"
+  # - mvn test
