@@ -5,7 +5,7 @@
 
 Run command:
 ```bash
-mvn archetype:generate "-DarchetypeGroupId=si.rso.archetype" "-DarchetypeArtifactId=rso-archetype" "-DarchetypeVersion=1.0.0" "-DgroupId=si.rso.sample" "-DartifactId=sample-project" "-Dversion=1.0.0-SNAPSHOT"
+mvn archetype:generate "-DarchetypeGroupId=si.rso.archetype" "-DarchetypeArtifactId=rso-archetype" "-DarchetypeVersion=1.1.0" "-DgroupId=si.rso.sample" "-DartifactId=sample-project" "-Dversion=1.0.0-SNAPSHOT"
 ```
 
 Command will generate directory (name equals artifactId) with project content.
