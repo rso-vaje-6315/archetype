@@ -30,13 +30,6 @@
         <rso-rest.version>1.2.0</rso-rest.version>
     </properties>
 
-    <modules>
-        <module>api</module>
-        <module>lib</module>
-        <module>services</module>
-        <module>persistence</module>
-    </modules>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -152,6 +145,25 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+        </profile>
+
+        <profile>
+            <id>deploy-lib</id>
+            <modules>
+                <module>lib</module>
+            </modules>
+        </profile>
+        <profile>
+            <id>default</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>api</module>
+                <module>lib</module>
+                <module>services</module>
+                <module>persistence</module>
+            </modules>
         </profile>
     </profiles>
 
